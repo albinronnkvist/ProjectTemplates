@@ -1,0 +1,23 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Albin Rönnkvist",
+    "classifications": ["Common", "Library"],
+    "identity": "AlbinRonnkvist.CSharpBasicTemplate", 
+    "name": "C# Basic Project Template",
+    "shortName": "csharpbasic",
+    "tags": {
+      "language": "C#",
+      "type": "project"
+    },
+    "sourceName": "ProjectName",
+    "preferNameDirectory": true,
+    "symbols": {
+      "namespace": {
+        "type": "parameter",
+        "datatype": "string",
+        "defaultValue": "AlbinRonnkvist.ProjectName",
+        "replaces": "AlbinRonnkvist.ProjectName"
+      }
+    }
+  }
+  
